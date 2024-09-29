@@ -1,0 +1,12 @@
+name: FrostedTiers
+version: '1.0-SNAPSHOT'
+main: dev.yyuh.tiers.FrostedTiers
+authors:
+  - yyuh
+description: Let's players see their tier!
+api-version: '1.20'
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: true
